@@ -30,7 +30,7 @@ if (max === 1) {
     short.innerHTML = 'Here, ' + max + ' random names!'; // Changes HTML based on user input!
 }           //Improved readability if 25 threshold is exceeded.
 
-if (max === 0) {          // A bit of humor never hurt anybody.
+if (max < 1) {          // A bit of humor never hurt anybody.
     text = 'Alright, I guess...?'
 } else if (max > fontLimit) {
     text = 'Please try again.'
